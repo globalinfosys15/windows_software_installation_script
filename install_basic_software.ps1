@@ -22,3 +22,4 @@ choco install vlc -y
 choco install treesizefree -y
 choco install chocolateygui -y
 choco install anydesk.install -y
+choco install au -y
