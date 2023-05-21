@@ -12,7 +12,7 @@ if (-not (Get-Command choco -ErrorAction SilentlyContinue)) {
 }
 
 # Install Some Softwares using Chocolaty
-Write-Host "Installing WinRAR using Chocolaty..." -ForegroundColor Yellow
+Write-Host "Installing Software(s) using Chocolaty..." -ForegroundColor Yellow
 choco install winrar -y
 choco install adobereader -y
 choco install googlechrome -y
